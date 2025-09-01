@@ -15,4 +15,4 @@ def read_auth_me():
 
 @app.get("/")
 def read_root():
-    return {"message": "API está no ar! Acesse /docs para ver a documentação."}
+    return {"message": "API está no ar! Acesse /docs para ver a documentação"}
